@@ -8,8 +8,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 
 import br.com.alura.agenda.R;
@@ -20,8 +18,8 @@ import static br.com.alura.agenda.ui.activity.ConstantesActivities.CHAVE_ALUNO;
 
 public class FormularioAlunoActivity extends AppCompatActivity {
 
-    private static final String TITULO_APPBAR_NOVO_ALUNO = "Novo aluno";
-    private static final String TITULO_APPBAR_EDITA_ALUNO = "Edita aluno";
+    private static final String TITULO_APPBAR_NOVO_ALUNO = "Novo Contato";
+    private static final String TITULO_APPBAR_EDITA_ALUNO = "Editar Contato";
     private EditText campoNome;
     private EditText campoTelefone;
     private EditText campoEmail;
