@@ -2,6 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/activity_lista_alunos_menu_remover"
-        android:title="Remover" />
+        android:title="@string/remover" />
 
 </menu>
