@@ -55,8 +55,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
 
     }
 
-
-
     private void configuraFabNovoAluno() {
         FloatingActionButton botaoNovoAluno = findViewById(R.id.activity_lista_alunos_fab_novo_aluno);
         botaoNovoAluno.setOnClickListener(new View.OnClickListener() {
@@ -77,8 +75,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
         listaAlunoView.atualizaAlunos();
     }
 
-
-
     private void configuraLista() {
         ListView listaDeAlunos = findViewById(R.id.activity_lista_alunos_listview);
         listaAlunoView.configuraAdapter(listaDeAlunos);
@@ -86,9 +82,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
         registerForContextMenu(listaDeAlunos);
 
     }
-
-
-
 
     private void configuraListenerDeCliquePorItem(ListView listaDeAlunos) {
         listaDeAlunos.setOnItemClickListener(new AdapterView.OnItemClickListener() {

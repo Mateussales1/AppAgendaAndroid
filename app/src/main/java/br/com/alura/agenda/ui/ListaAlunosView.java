@@ -45,5 +45,6 @@ public class ListaAlunosView {
 
     public void configuraAdapter(ListView listaDeAlunos) {
         listaDeAlunos.setAdapter(adapter);
+
     }
 }
